@@ -1,0 +1,17 @@
+class Hero{
+    private:
+    string hero;
+    int level;
+    public:
+    Hero(string hero,int level){
+        this->hero = hero;
+        this->level = level;
+    }
+    string getName(){
+        return hero;
+    }
+    int getLevel(){
+        return level;
+    }
+
+};

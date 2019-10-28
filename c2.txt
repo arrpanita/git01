@@ -1,0 +1,6 @@
+string name;
+   int lev;
+   cin >> name ;
+   cin >> lev;
+   Hero p1 (name,lev);
+   cout << p1.getName() << " "  << p1.getLevel() << endl;
